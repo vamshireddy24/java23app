@@ -22,7 +22,7 @@ jobs:
         java-version: '23'
 
     - name: Build with Maven
-      run: mvn -B clean install --file my-java-app/pom.xml
+      run: mvn -B clean install 
 
     - name: Run tests
       run: mvn test --file my-java-app/pom.xml
